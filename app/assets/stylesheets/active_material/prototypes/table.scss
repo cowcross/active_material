@@ -8,7 +8,7 @@ $am-table-border-color: am-color(divider);
 @mixin am-table {
   background: $am-table-background;
   width: 100%;
-  word-break: break-word;
+  //word-break: break-word;
 }
 
 @mixin am-table-header {
@@ -26,7 +26,7 @@ $am-table-border-color: am-color(divider);
   line-height: am-unit(2);
   padding: am-unit(1) am-unit(2);
   text-align: left;
-  white-space: nowrap;
+  //white-space: nowrap;
 }
 
 @mixin am-table-sort {
